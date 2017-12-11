@@ -4,7 +4,7 @@ The GateKeeper tool has been implemented as a chrome extension. By having the to
 
 
 
-# Dependencies:
+### Dependencies:
 
 Cuckoo Sandbox		:	Used for file analysis
 PhishTank		:	Used for phishing URL detection
@@ -14,7 +14,7 @@ Note:
 The cuckoo sandbox is configured with windows guest virtual machine. This is required because the Linux guest machine is not fully mature and it doesn’t have support for lot of functionalities which is used in file analysis.
 
 
-# Setup:
+### Setup:
 
 1.	Install Cuckoo Sandbox
 	- Cuckoo sandbox should be installed properly for the extension to work. The installation instruction for cuckoo sandbox can be found at the below URL
@@ -27,7 +27,7 @@ The cuckoo sandbox is configured with windows guest virtual machine. This is req
 	- This static configuration will be changed in future. The user will be asked to specify the cuckoo host and port so that there can be a single cuckoo instance in the future	       to run multiple tasks in an environment.
 
 
-# Usage:
+### Usage:
 -	Load the extension in google chrome.
 -	Click the extension icon which says “GateKeeper” to activate the extension.
 -	The tool starts download analysis and phishing detection by default
@@ -35,7 +35,7 @@ The cuckoo sandbox is configured with windows guest virtual machine. This is req
 
 
 
-# Future Work:
+### Future Work:
 
 -	Support to dynamically configure cuckoo setup details within the extension
 -	Option to view the cuckoo report within the extension
@@ -43,7 +43,7 @@ The cuckoo sandbox is configured with windows guest virtual machine. This is req
 -	Remove cuckoo dependency to configure any dynamic malware analysis platform within the extension
 
 
-# References:
+### References:
 
 -	http://docs.cuckoosandbox.org/
 -	https://www.phishtank.com/
